@@ -11,13 +11,14 @@ As far as we know, few public datasets specifically for remote sensing building 
 ## Dataset Description
 The dataset contains 42 images with resolutions ranging from 0.8m to 2m per pixel, and sizes ranging from 2000$\times$2000 to 5000$\times$6000. We crop the images to size 512$\times$512 patches. This gives a total of 1348 image patches, divided into 70\% for training and 30\% for validation. That is, we got a training set with 944 cropped images and a validation set with 404 cropped images. The proportion of each category (ignoring background) is shown in the below table. The data are imbalanced, and the proportion of SL in the dataset is deficient. The reason is that the geographic distribution of images is concentrated in urban areas, where most low-rise buildings are clustered.
 
+**Index of classes: HZ (1), LZ (2), SH (3), SL (4), background (255)**
+
 |            | HZ            | LZ            | SH            | SL            |
 | ---------- | :-----------: | :-----------: | :-----------: | :-----------: |
 | Number(M)  | 7.622         | 15.291        | 11.389        | 1.310         |
 | \%         | 21.10         | 42.92         | 32.36         | 3.62          |
 
 ## Data structure
-Index of classes:HZ (1), LZ (2), SH (3), SL (4), background (255)
 ```
 Hainan 
  ├── complete
