@@ -4,7 +4,7 @@ As far as we know, few public datasets specifically for remote sensing building 
 
 <figure>
   <text-align: center;>
-  <img src="./figures/buildings.pdf" alt="buildings" title="Examples of the four classes of our building subclass segmentation task: (a) HZ, (b) LZ, (c) SH, and (d) SL." width="900" height="150" />
+  <img src="./figures/buildings.png" alt="buildings" title="Examples of the four classes of our building subclass segmentation task: (a) HZ, (b) LZ, (c) SH, and (d) SL." width="500" height="600" />
 </figcaption>
 </figure>
 
@@ -16,3 +16,31 @@ The dataset contains 42 images with resolutions ranging from 0.8m to 2m per pixe
 | Number(M)  | 7.622         | 15.291        | 11.389        | 1.310         |
 | \%         | 21.10         | 42.92         | 32.36         | 3.62          |
 
+## Data structure
+Index of classes:HZ (1), LZ (2), SH (3), SL (4), background (255)
+```
+Hainan 
+ ├── complete
+ │      ├── images 
+ │      │      └── <imageID>.tif
+ │      │      └── ...
+ │      ├── labels
+ │      │      └── <imageID>.tif
+ │      │      └── ...
+ │      ├── shps
+ │      │      └── <imageID>.shp
+ │      │      └── ...
+ ├── crop
+ │      ├── images 
+ │      │      └── <imageID_cropID>.tif
+ │      │      └── ...
+ │      ├── labels
+ │      │      └── <imageID_cropID>.tif
+ │      │      └── ...
+ └──────│
+```
+
+## Dataset Link
+BaiduYun: [Link]()
+
+OneDrive: [Link]()
