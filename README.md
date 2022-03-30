@@ -4,7 +4,7 @@ As far as we know, few public datasets specifically for remote sensing building 
 
 <figure>
   <text-align: center;>
-  <img src="./figures/seg-hrnet.png" alt="hrnet" title="" width="900" height="150" />
+  <img src="./figures/buildings.pdf" alt="buildings" title="Examples of the four classes of our building subclass segmentation task: (a) HZ, (b) LZ, (c) SH, and (d) SL." width="900" height="150" />
 </figcaption>
 </figure>
 
